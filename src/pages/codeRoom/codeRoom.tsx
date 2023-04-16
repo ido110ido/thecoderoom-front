@@ -52,7 +52,6 @@ const CodeRoom = (): JSX.Element => {
   }, [roomId]);
 
   const handleChange = (value: any) => {
-    console.log(value);
     socket?.emit("sent_message", { value, roomId });
   };
 
