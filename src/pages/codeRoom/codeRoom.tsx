@@ -63,7 +63,7 @@ const CodeRoom = (): JSX.Element => {
       </div>
       <Editor
         height="100%"
-        width="90vw"
+        width="100vw"
         className="codeEditor"
         defaultLanguage="javascript"
         onMount={handleEditorDidMount}
