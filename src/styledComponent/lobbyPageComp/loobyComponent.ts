@@ -12,7 +12,7 @@ export const BackGroundLobby = styled.div`
 
 export const Logo = styled.img`
   margin-top: 10px;
-  width: 50vw;
+  width: 50vh;
   max-width: 800px;
 `;
 export const RoomStack = styled.div`
