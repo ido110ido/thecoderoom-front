@@ -34,7 +34,7 @@ const CodeRoom = (): JSX.Element => {
     }
 
     // Connect the socket to the new room
-    socket = io("http://localhost:8000");
+    socket = io("https://thecoderoom-server.onrender.com");
     socket.emit("join_room", roomId);
 
     // Listen for updated code and read-only mode events

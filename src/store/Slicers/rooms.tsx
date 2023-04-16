@@ -7,7 +7,9 @@ export interface IRoomsState {
   allRooms: IRoom[];
 }
 
-const roomsData = await axios.get("http://localhost:8000" + "/rooms");
+const roomsData = await axios.get(
+  "https://thecoderoom-server.onrender.com" + "/rooms"
+);
 
 export const roomsSlice = createSlice({
   name: "rooms",
